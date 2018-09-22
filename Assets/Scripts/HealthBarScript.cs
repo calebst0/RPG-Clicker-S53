@@ -7,13 +7,12 @@ public class HealthBarScript : MonoBehaviour {
 
     public const float maxHealth = 1f;
     public float currentHealth = maxHealth;
-    private Image healthbar;
+    public Image healthbar;
     
 
     void Start()
     {
-        this.healthbar = transform.Find("HealthCanvas").Find("HealthBG").Find("Health").GetComponent<Image>();
-        
+
         currentHealth = maxHealth;
     }
 
@@ -25,9 +24,9 @@ public class HealthBarScript : MonoBehaviour {
 
     public void UpdateHealth()
     {
-       this.currentHealth -= 0.25f; // Decrements the health bar graphic
+       currentHealth -= 0.25f; // Decrements the health bar graphic
         
-      healthbar.fillAmount = currentHealth;
+      this.healthbar.fillAmount = currentHealth;
     }
 
 

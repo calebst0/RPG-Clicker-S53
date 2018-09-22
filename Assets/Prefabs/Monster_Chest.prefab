@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 224846673431451158}
   - component: {fileID: 222562951387753036}
   - component: {fileID: 114963914923673814}
-  - component: {fileID: 114560902804633064}
+  - component: {fileID: 114130257258029166}
   m_Layer: 5
   m_Name: Health
   m_TagString: HealthBar
@@ -91,7 +91,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1995404796767496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 576.5, y: 302.4, z: 0}
+  m_LocalPosition: {x: -21, y: 30, z: 0}
   m_LocalScale: {x: 11.809681, y: 13.28589, z: 0}
   m_Children:
   - {fileID: 224788099094159904}
@@ -143,6 +143,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.56}
   m_EdgeRadius: 0
+--- !u!114 &114130257258029166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915053935464002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d00f4257f08bc448e9d585d2e1c171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  healthbar: {fileID: 114963914923673814}
 --- !u!114 &114375406496487948
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -164,18 +177,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114560902804633064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1915053935464002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4cc07d61bd86b943b3e248b3dfbff40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 100
 --- !u!114 &114645051759352614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -187,7 +188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23d00f4257f08bc448e9d585d2e1c171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
+  currentHealth: 1
+  healthbar: {fileID: 114963914923673814}
 --- !u!114 &114671462958839730
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -15,6 +15,7 @@ public class Movement_AI : MonoBehaviour {
  
         HealthBarScript hb = gameObject.GetComponent<HealthBarScript>();
         
+
     }
 
     void OnMouseDown()
