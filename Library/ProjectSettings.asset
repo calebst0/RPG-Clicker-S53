@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
+<<<<<<< HEAD
   productGUID: 3e9ce1de072209342a667d75149f509e
+=======
+  productGUID: cd1fd9de4a2a7b3448ebfda02579c77b
+>>>>>>> Conan
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: RPG Clicker
+=======
+  productName: Clicker Game
+>>>>>>> Conan
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -617,9 +625,15 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
+<<<<<<< HEAD
   cloudProjectId: f4a08b0d-beaa-42b2-9619-9dac078e14a2
   projectName: RPG Clicker
   organizationId: recallm
+=======
+  cloudProjectId: 4daf9198-d450-4b18-9600-99752ee04114
+  projectName: Clicker Game
+  organizationId: cocoaconan
+>>>>>>> Conan
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

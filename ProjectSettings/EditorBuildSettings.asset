@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/MenuScene.unity
     guid: 3e98ac1cef105c44eaa84184ccc8e14a
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+=======
+    path: Assets/Scenes/Main_Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 582f852a8244cb64aa2559b4ebba502e
+>>>>>>> Conan
   m_configObjects: {}
