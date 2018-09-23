@@ -8,12 +8,12 @@ public class HealthBarScript : MonoBehaviour {
     public const float maxHealth = 1f;
     public float currentHealth = maxHealth;
     public Image healthbar;
-    
 
     void Start()
     {
 
         currentHealth = maxHealth;
+
     }
 
     void Update()
@@ -26,7 +26,7 @@ public class HealthBarScript : MonoBehaviour {
     {
        currentHealth -= 0.25f; // Decrements the health bar graphic
         
-      this.healthbar.fillAmount = currentHealth;
+       this.healthbar.fillAmount = currentHealth;
     }
 
 

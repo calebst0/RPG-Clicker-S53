@@ -9,13 +9,15 @@ public class Movement_AI : MonoBehaviour {
     public HealthBarScript hb;
     public float speed;
     public int numberOfClicks = 0;
-    
+    public int xpGain = 20;
+    public LevelingScript leveling;
+
     void Start()
     {
  
         HealthBarScript hb = gameObject.GetComponent<HealthBarScript>();
-        
 
+        leveling = FindObjectOfType<LevelingScript>();
     }
 
     void OnMouseDown()
@@ -24,6 +26,8 @@ public class Movement_AI : MonoBehaviour {
         {
             Destroy(gameObject);
             numberOfClicks = 0;
+
+            leveling.addExperience(xpGain);
         }
         else
         {
