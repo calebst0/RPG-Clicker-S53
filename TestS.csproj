@@ -53,8 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\TestS\NewTestScript.cs" />
-     <None Include="Assets\Scripts\TestS\TestS.asmdef" />
+     <Compile Include="Assets\Scripts\Editor\LevelTest.cs" />
+     <Compile Include="Assets\Scripts\Editor\TestSpawner.cs" />
+     <None Include="Assets\Scripts\Editor\TestS.asmdef" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
