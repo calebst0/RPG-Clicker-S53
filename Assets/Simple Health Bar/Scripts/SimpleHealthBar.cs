@@ -18,6 +18,16 @@ public class SimpleHealthBar : MonoBehaviour
 	public Color barColor = Color.white;
 	public Gradient barGradient = new Gradient();
 
+    private LevelingScript levelText;
+    public Text levelTextDisplay;
+
+    void Update()
+    {
+        levelTextDisplay.text = "LVL: " + levelText.currentLevel;
+    }
+
+
+
 	// TEXT OPTIONS //
 	public enum DisplayText
 	{

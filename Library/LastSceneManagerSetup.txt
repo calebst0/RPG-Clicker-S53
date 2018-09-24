@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/BattleScene.unity
-=======
-- path: Assets/Scenes/Main_Game.unity
->>>>>>> Conan
   isLoaded: 1
   isActive: 1
