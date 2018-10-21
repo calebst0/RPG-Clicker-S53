@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-<<<<<<< HEAD
     [SerializeField]
     private Stat health;
     [SerializeField]
@@ -17,18 +16,7 @@ public class Player : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start ()
-    {
-
-=======
-	// Use this for initialization
-	void Start () {
->>>>>>> Caleb
-		
-	}
-	
 	// Update is called once per frame
-<<<<<<< HEAD
 	void Update ()
     {
 		if(Input.GetKeyDown(KeyCode.Q))
@@ -51,9 +39,4 @@ public class Player : MonoBehaviour {
             energy.CurrentVal += 10;
         }
     }
-=======
-	void Update () {
-		
-	}
->>>>>>> Caleb
 }

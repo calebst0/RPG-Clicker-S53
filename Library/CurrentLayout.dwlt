@@ -13,36 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 360
-    y: 66
-    width: 1422
-    height: 908
+    x: 244
+    y: 98
+    width: 1318
+    height: 883
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 542}
-=======
-    x: 267
-    y: 117
-    width: 1396
-    height: 840
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 442}
->>>>>>> Caleb
-=======
-    x: 0
-    y: 43
-    width: 1920
-    height: 997
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 442}
->>>>>>> Ferris
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -52,7 +30,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -63,44 +40,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1422
-    height: 858
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+    width: 1318
+    height: 833
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 9
-=======
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-<<<<<<< HEAD
-    width: 202
-    height: 790
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
->>>>>>> Caleb
-=======
-    width: 277
-    height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
->>>>>>> Ferris
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -115,40 +60,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1105
+    x: 1009
     y: 0
-    width: 317
-    height: 858
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 309
+    height: 833
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
-=======
-    x: 0
-<<<<<<< HEAD
-    y: 519
-    width: 849
-    height: 271
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  - {fileID: 11}
->>>>>>> Caleb
   m_Selected: 0
   m_LastSelected: 0
-=======
-    y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 583, y: 392}
-  m_MaxSize: {x: 14004, y: 14042}
-  vertical: 0
-  controlID: 94
->>>>>>> Ferris
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,50 +79,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 0
-    width: 239
-    height: 587
-  m_MinSize: {x: 202, y: 221}
-=======
-    x: 1237
-    y: 0
-    width: 406
-    height: 670
-  m_MinSize: {x: 277, y: 71}
->>>>>>> Ferris
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+    width: 224
+    height: 533
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 202
-    y: 0
-    width: 849
-    height: 790
-  m_MinSize: {x: 234, y: 392}
-  m_MaxSize: {x: 10004, y: 14042}
-  vertical: 1
-  controlID: 51
->>>>>>> Caleb
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,82 +104,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 2}
-  - {fileID: 4}
-  - {fileID: 6}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1396
-    height: 790
-  m_MinSize: {x: 711, y: 392}
-  m_MaxSize: {x: 18006, y: 14042}
-  vertical: 0
-  controlID: 50
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
->>>>>>> Caleb
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
-<<<<<<< HEAD
-    y: 587
-    width: 1105
-    height: 271
+    y: 533
+    width: 1009
+    height: 300
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-=======
-    y: 670
-    width: 1643
-    height: 277
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 15}
-  - {fileID: 14}
->>>>>>> Ferris
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
-=======
-    x: 1051
-    y: 0
-    width: 345
-    height: 790
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,38 +134,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
   - {fileID: 7}
   - {fileID: 2}
   - {fileID: 8}
-=======
-  - {fileID: 8}
-  - {fileID: 5}
-  - {fileID: 9}
->>>>>>> Caleb
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1422
-    height: 908
-  m_MinSize: {x: 950, y: 542}
-=======
-    width: 1920
-    height: 997
-  m_MinSize: {x: 950, y: 442}
->>>>>>> Ferris
+    width: 1318
+    height: 883
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
-=======
-    width: 1396
-    height: 840
-  m_MinSize: {x: 950, y: 442}
-  m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &8
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -343,24 +161,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1422
-=======
-    width: 1396
->>>>>>> Caleb
-=======
-    width: 1920
->>>>>>> Ferris
+    width: 1318
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
-<<<<<<< HEAD
 --- !u!114 &8
-=======
---- !u!114 &9
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,26 +181,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 888
-    width: 1422
-=======
-    y: 977
-    width: 1920
->>>>>>> Ferris
+    y: 863
+    width: 1318
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
 --- !u!114 &9
-=======
-    y: 820
-    width: 1396
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
---- !u!114 &10
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -402,52 +194,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 10}
   - {fileID: 5}
-=======
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
->>>>>>> Caleb
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1105
-    height: 858
-  m_MinSize: {x: 406, y: 492}
-=======
-    x: 277
-    y: 0
-    width: 1643
-    height: 947
-  m_MinSize: {x: 381, y: 392}
->>>>>>> Ferris
+    width: 1009
+    height: 833
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 112
 --- !u!114 &10
-=======
-    width: 849
-    height: 519
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &11
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -455,7 +218,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -466,39 +228,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1105
-    height: 587
-  m_MinSize: {x: 406, y: 221}
-=======
-    width: 1643
-    height: 670
-  m_MinSize: {x: 381, y: 121}
->>>>>>> Ferris
-  m_MaxSize: {x: 8006, y: 4021}
+    width: 1009
+    height: 533
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 113
 --- !u!114 &11
-=======
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2
-    y: 538
-    width: 613
-    height: 250
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &12
->>>>>>> Caleb
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -506,212 +242,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 239
+    x: 224
     y: 0
-<<<<<<< HEAD
-    width: 866
-    height: 587
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 16}
+    width: 785
+    height: 533
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
-=======
-  m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-=======
-    width: 1237
-    height: 670
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  - {fileID: 20}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 92
-    width: 275
-    height: 926
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: '[RPG Clicker][suite]'
-      name: RPG Clicker
-      fullName: RPG Clicker
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: '[RPG Clicker][suite]'
-      name: RPG Clicker
-      fullName: RPG Clicker
-      resultStatus: 1
-      duration: 0.0492167
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: 
-    - id: '[C:/Users/User/Documents/RPGClicker/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
-      name: Assembly-CSharp-Editor.dll
-      fullName: C:/Users/User/Documents/RPGClicker/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 1
-      duration: 0.0295875
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: '[RPG Clicker][suite]'
-    - id: '[Assembly-CSharp-Editor][HealthBarTest+MonsterCurrentHealth][suite]'
-      name: HealthBarTest+MonsterCurrentHealth
-      fullName: HealthBarTest+MonsterCurrentHealth
-      resultStatus: 1
-      duration: 0.0245344
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentID: '[C:/Users/User/Documents/RPGClicker/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
-    - id: '[Assembly-CSharp-Editor][HealthBarTest+MonsterCurrentHealth.Current_Health_Half]'
-      name: Current_Health_Half
-      fullName: HealthBarTest+MonsterCurrentHealth.Current_Health_Half
-      resultStatus: 1
-      duration: 0.0125688
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentID: '[Assembly-CSharp-Editor][HealthBarTest+MonsterCurrentHealth][suite]'
-    m_ResultText: HealthBarTest+MonsterCurrentHealth (0.025s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2512c23c
-      m_LastClickedID: 1019351589
-      m_ExpandedIDs: 05ebd18306a405ca2512c23cffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
---- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -731,253 +281,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 204
-    y: 92
-    width: 1284
-    height: 655
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
->>>>>>> Ferris
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Services
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 1310
-    y: 220
-    width: 278
-    height: 762
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub/#/cloud-menu
-  m_GlobalObjectTypeName: 
-  m_RegisteredViewURLs:
-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/purchasing
-  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/analytics
-  m_RegisteredViewInstances:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
---- !u!114 &13
->>>>>>> Caleb
-=======
-    x: 279
-    y: 762
-    width: 1641
-    height: 256
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &15
->>>>>>> Ferris
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-<<<<<<< HEAD
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-<<<<<<< HEAD
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-=======
-=======
-    m_Text: Animation
-    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 279
-    y: 762
-    width: 1641
-    height: 256
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_AnimEditor: {fileID: 0}
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: -158568
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
->>>>>>> Ferris
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
->>>>>>> Caleb
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
     height: 501
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
-=======
-    x: 1320
-    y: 166
-    width: 343
-    height: 769
-=======
-    x: 1516
-    y: 92
-    width: 404
-    height: 649
->>>>>>> Ferris
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewResizer:
-    m_CachedPref: 100
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
---- !u!114 &14
-=======
---- !u!114 &17
->>>>>>> Ferris
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 471
-    y: 166
-    width: 845
-    height: 498
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 1882.3225561
-=======
-    x: 279
-    y: 92
-    width: 1233
-    height: 649
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 1312.8262439670414
->>>>>>> Ferris
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 446.25662, y: 240.18628, z: -15.375}
-    speed: 2
-    m_Value: {x: 446.25662, y: 240.18628, z: -15.375}
-=======
-    m_Target: {x: 762.8878, y: 357.3352, z: -5.399338}
-    speed: 2
-    m_Value: {x: 762.8878, y: 357.3352, z: -5.399338}
->>>>>>> Ferris
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 0
-    showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 0
-    showImageEffects: 0
-    showParticleSystems: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-<<<<<<< HEAD
-    m_Target: 559.7828
-    speed: 2
-    m_Value: 559.7828
-=======
-    m_Target: 904.5703
-    speed: 2
-    m_Value: 904.5703
->>>>>>> Ferris
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
---- !u!114 &15
->>>>>>> Caleb
-=======
---- !u!114 &18
->>>>>>> Ferris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -997,23 +306,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 0
-    y: 606
-    width: 1103
-=======
-    x: 471
-    y: 685
-    width: 845
->>>>>>> Caleb
-    height: 250
-=======
-    x: 279
-    y: 762
-    width: 1641
-    height: 256
->>>>>>> Ferris
+    y: 552
+    width: 1007
+    height: 279
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1027,65 +323,36 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Scripts
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scripts
-=======
     - Assets/Scenes
-  m_ViewMode: 1
-=======
-    - Assets/Prefabs
   m_ViewMode: 0
->>>>>>> Ferris
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
->>>>>>> Caleb
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\User\Documents\RPGClicker
+  m_LastProjectPath: C:\Users\Caleb\Documents\github\RPG-Clicker-S53
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: dc2e0000
-    m_LastClickedID: 11996
-    m_ExpandedIDs: 00000000322a0000762c0000dc2e00006030000096320000d8330000023500004a35000006360000283600003e380000a4390000863a0000843b00008a3c00001a3f000000ca9a3b
-=======
-    m_SelectedIDs: 48310000
-    m_LastClickedID: 12616
-    m_ExpandedIDs: 00000000ee290000f4290000a63000004831000000ca9a3b
->>>>>>> Caleb
-=======
-    m_SelectedIDs: b6280000
-    m_LastClickedID: 10422
-    m_ExpandedIDs: 000000000c2a0000ac2e00001830000042320000763300009634000094350000b635000030390000103a0000fc3b00005c3c0000863e0000883e00008a3e00008c3e0000
->>>>>>> Ferris
+    m_SelectedIDs: 10370000
+    m_LastClickedID: 14096
+    m_ExpandedIDs: 00000000f82a0000fe2d00002831000004330000903500001037000096380000cc390000f6390000643e0000a43f0000da4000002a420000da440000dc44000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11464
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
       m_ClientGUIView: {fileID: 5}
-=======
-      m_ClientGUIView: {fileID: 0}
->>>>>>> Caleb
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1094,37 +361,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000322a0000762c0000dc2e00006030000096320000d8330000023500004a3500000636000028360000a4390000863a0000843b00008a3c00001a3f0000
-=======
-    m_ExpandedIDs: ffffffff00000000ee290000f4290000a630000048310000
->>>>>>> Caleb
-=======
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000c2a0000b22b0000522c0000ac2e00001830000042320000763300009634000094350000b6350000dc35000030390000fc3b0000043c0000863e0000883e00008a3e00008c3e0000
->>>>>>> Ferris
+    m_ExpandedIDs: ffffffff00000000f82a0000c82c0000fe2d0000043300009035000096380000e8380000cc390000f6390000643e0000a43f0000da4000002a420000da440000dc440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Beholder
+      m_OriginalName: Beholder
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12102
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1135,12 +391,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-<<<<<<< HEAD
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
-=======
-    m_ExpandedInstanceIDs: 
->>>>>>> Caleb
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1156,11 +408,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 5}
-=======
       m_ClientGUIView: {fileID: 0}
->>>>>>> Caleb
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1170,8 +418,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-<<<<<<< HEAD
-  m_DirectoriesAreaWidth: 295
+  m_DirectoriesAreaWidth: 115
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1192,10 +439,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1107
-    y: 19
-    width: 315
-    height: 837
+    x: 1255
+    y: 147
+    width: 307
+    height: 812
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -1207,14 +454,6 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &15
-=======
-  m_DirectoriesAreaWidth: 115
-<<<<<<< HEAD
---- !u!114 &16
->>>>>>> Caleb
-=======
---- !u!114 &19
->>>>>>> Ferris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1234,72 +473,39 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 0
     y: 19
-    width: 237
-    height: 566
-=======
-    x: 267
-    y: 166
-    width: 200
-    height: 769
->>>>>>> Caleb
+    width: 222
+    height: 512
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: d6fbffff00000000
-=======
-    m_ExpandedIDs: 38dbffff64e7ffff00000000
->>>>>>> Caleb
-=======
-    x: 0
-    y: 92
-    width: 275
-    height: 926
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dcfbffff
-    m_LastClickedID: -1060
-    m_ExpandedIDs: b83dffffdc3dffff2a40ffff4e40ffff8a7cffff9a7cffff9a9effff9c9effffbcb0ffffbeb0ffff8afbffffaefbffffb0fbffffdefbffff00000000723d0000
->>>>>>> Ferris
+    m_ExpandedIDs: 9e5dfcff545efcff7298fcff8cbdfcff2224feffc6a9feff10daffff30dcffff46dcffff5edcffff60dcffff66dcffff8adcffff8cdcffff8edcffff60fbffff62fbffff64fbffff000000000c440000fc4400004c5f0000525f0000c05f0000dc620000e262000050630000b2680000b8680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Canvas
+      m_OriginalName: Canvas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 25314
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
-<<<<<<< HEAD
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
   - BattleScene
-=======
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-  m_ExpandedScenes:
-  - Shop
->>>>>>> Caleb
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
   m_CurrentSortingName: TransformSorting
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1320,20 +526,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 601
-    y: 115
-    width: 862
-    height: 566
+    x: 573
+    y: 141
+    width: 735
+    height: 512
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2827.1028625999998
+  lastFramingTime: 0
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 698.0124, y: 418.14587, z: -6.497175}
+    m_Target: {x: 436.64056, y: 282.27902, z: -7}
     speed: 2
-    m_Value: {x: 698.0124, y: 418.14587, z: -6.497175}
+    m_Value: {x: 436.64056, y: 282.27902, z: -7}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1365,9 +571,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 918.2714
+    m_Target: 748.56024
     speed: 2
-    m_Value: 918.2714
+    m_Value: 748.56024
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1379,12 +585,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-=======
->>>>>>> Caleb
 --- !u!114 &17
-=======
---- !u!114 &20
->>>>>>> Ferris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1404,24 +605,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 323
-    y: 92
-    width: 1168
-    height: 655
-=======
-    x: 471
-    y: 166
-    width: 845
-    height: 498
->>>>>>> Caleb
-=======
-    x: 279
-    y: 92
-    width: 1233
-    height: 649
->>>>>>> Ferris
+    x: 470
+    y: 147
+    width: 781
+    height: 512
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -1433,24 +620,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HBaseRangeMin: -584
-    m_HBaseRangeMax: 584
-    m_VBaseRangeMin: -319
-    m_VBaseRangeMax: 319
-=======
-    m_HBaseRangeMin: -422.5
-    m_HBaseRangeMax: 422.5
-    m_VBaseRangeMin: -240.5
-    m_VBaseRangeMax: 240.5
->>>>>>> Caleb
-=======
-    m_HBaseRangeMin: -616.5
-    m_HBaseRangeMax: 616.5
-    m_VBaseRangeMin: -316
-    m_VBaseRangeMax: 316
->>>>>>> Ferris
+    m_HBaseRangeMin: -390.5
+    m_HBaseRangeMax: 390.5
+    m_VBaseRangeMin: -247.5
+    m_VBaseRangeMax: 247.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1459,15 +632,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_EnableMouseInput: 1
-=======
-    m_EnableMouseInput: 0
->>>>>>> Caleb
-=======
-    m_EnableMouseInput: 0
->>>>>>> Ferris
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1476,66 +641,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-<<<<<<< HEAD
-<<<<<<< HEAD
-      width: 1168
-      height: 638
+      width: 781
+      height: 495
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 584, y: 319}
-=======
-      width: 845
-      height: 481
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 422.5, y: 240.5}
->>>>>>> Caleb
-=======
-      width: 1233
-      height: 632
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 616.5, y: 316}
->>>>>>> Ferris
+    m_Translation: {x: 390.5, y: 247.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-      x: -584
-      y: -319
-      width: 1168
-      height: 638
-=======
-      x: -422.5
-      y: -240.5
-      width: 845
-      height: 481
->>>>>>> Caleb
-=======
-      x: -616.5
-      y: -316
-      width: 1233
-      height: 632
->>>>>>> Ferris
+      x: -390.5
+      y: -247.5
+      width: 781
+      height: 495
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 1168, y: 655}
-=======
-  m_LastWindowPixelSize: {x: 845, y: 498}
->>>>>>> Caleb
-=======
-  m_LastWindowPixelSize: {x: 1233, y: 649}
->>>>>>> Ferris
+  m_LastWindowPixelSize: {x: 781, y: 512}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
-<<<<<<< HEAD
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1556,10 +684,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 768
-    width: 1491
-    height: 250
+    x: 360
+    y: 674
+    width: 948
+    height: 279
   m_PersistentViewDataDictionary: {fileID: 0}
-=======
->>>>>>> Caleb
