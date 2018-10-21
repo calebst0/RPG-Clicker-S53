@@ -5,29 +5,25 @@ using UnityEngine.UI;
 
 public class Movement_AI : MonoBehaviour {
 
+    private static int CLICKS_TO_KILL = 9;
     private GameObject monster;
     public HealthBarScript hb;
     public float speed;
     public int numberOfClicks = 0;
-    public int xpGain = 20;
-    public LevelingScript leveling;
+    public TeleportScript_Boss Tele;
 
     void Start()
     {
- 
         HealthBarScript hb = gameObject.GetComponent<HealthBarScript>();
-
-        leveling = FindObjectOfType<LevelingScript>();
+        TeleportScript_Boss Tele = gameObject.GetComponent<TeleportScript_Boss>();
     }
 
     void OnMouseDown()
     {
-        if (numberOfClicks > 2)  //Number of clicks to kill       
+        if (numberOfClicks > CLICKS_TO_KILL)  //Number of clicks to kill       
         {
             Destroy(gameObject);
             numberOfClicks = 0;
-
-            leveling.addExperience(xpGain);
         }
         else
         {
@@ -42,5 +38,13 @@ public class Movement_AI : MonoBehaviour {
     {
         transform.Translate(Vector3.down * speed * Time.deltaTime); // Gravity for falling object
     }
-	
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Edge")
+        {
+            Tele.Teleport();
+        }
+    }
+
 }
