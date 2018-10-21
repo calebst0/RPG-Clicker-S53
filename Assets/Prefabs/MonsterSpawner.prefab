@@ -71,7 +71,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4196025163261138
 Transform:
   m_ObjectHideFlags: 1
@@ -79,7 +79,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1911103110212852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -160, y: 0, z: 0}
+  m_LocalPosition: {x: -194, y: 8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4655277832430884}
@@ -95,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1054372414540504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 333, y: 0, z: 0}
+  m_LocalPosition: {x: 174, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4196025163261138}
@@ -108,7 +108,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1060913138771390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 78.4, y: -1.5, z: 0}
+  m_LocalPosition: {x: -39, y: -23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4196025163261138}
@@ -121,7 +121,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1438343395756222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.9, y: 0.5, z: 0}
+  m_LocalPosition: {x: -256, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4196025163261138}
@@ -143,11 +143,11 @@ MonoBehaviour:
   - {fileID: 4531602793605512}
   - {fileID: 4436114400773876}
   spawnPrefab:
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
+  - {fileID: 1425101976382010, guid: 91c3f5295e216774ab0156fee7057ab7, type: 2}
+  - {fileID: 1301586460522796, guid: 3de0d8f128d141949b2687d5be4b2c27, type: 2}
+  - {fileID: 1215978200600652, guid: 8c48219188699df4b9c4d5dd35b8b28e, type: 2}
   clonedPrefab:
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
-  - {fileID: 1995404796767496, guid: 6009b997d0d5b5b47b9d937f1c9d1dbc, type: 2}
+  - {fileID: 1425101976382010, guid: 91c3f5295e216774ab0156fee7057ab7, type: 2}
+  - {fileID: 1301586460522796, guid: 3de0d8f128d141949b2687d5be4b2c27, type: 2}
+  - {fileID: 1215978200600652, guid: 8c48219188699df4b9c4d5dd35b8b28e, type: 2}
   secondsToSpawn: 0
