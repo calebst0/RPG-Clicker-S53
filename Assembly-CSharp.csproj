@@ -53,10 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\BarScript.cs" />
      <Compile Include="Assets\Scripts\Destroy.cs" />
      <Compile Include="Assets\Scripts\HealthBarScript.cs" />
-     <Compile Include="Assets\Scripts\HealthBarScript_Boss.cs" />
      <Compile Include="Assets\Scripts\LevelingScript.cs" />
      <Compile Include="Assets\Scripts\LevelTest.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
@@ -64,13 +64,9 @@
      <Compile Include="Assets\Scripts\MonsterAI.cs" />
      <Compile Include="Assets\Scripts\MonsterSpawner.cs" />
      <Compile Include="Assets\Scripts\Movement_AI.cs" />
-     <Compile Include="Assets\Scripts\Movement_AI_Boss.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Stat.cs" />
-     <Compile Include="Assets\Scripts\TeleportScript_Boss.cs" />
-     <Compile Include="Assets\Scripts\TestSpawner.cs" />
-     <Compile Include="Assets\ShopAssets\Simple UI\Samples\IconPreview.cs" />
      <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
      <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
      <Compile Include="Assets\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
@@ -82,12 +78,10 @@
      <None Include="Assets\Simple Health Bar\README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\ShopAssets\Simple UI\Fonts\OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\ShopAssets\fantasy weapons set\license.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -98,6 +92,13 @@
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+=======
+     <Compile Include="Assets\Scripts\LevelingScript.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\ShopAssets\Simple UI\Samples\IconPreview.cs" />
+     <None Include="Assets\ShopAssets\Simple UI\Fonts\OFL.txt" />
+     <None Include="Assets\ShopAssets\fantasy weapons set\license.txt" />
+>>>>>>> Caleb
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Caleb/Documents/github/RPG-Clicker-S53/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

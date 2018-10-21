@@ -17,17 +17,23 @@ public class TestSpawner : MonoBehaviour {
         if (secondsToSpawn <= 0.0f)
         {
             secondsToSpawn = 1.0f;
-            SpawnObjects();
+            spawnObjects();
         }
             
     }
 
-    void SpawnObjects()
+    void spawnObjects()
     {
         int spawnPointIndex = Random.Range(0, spawnLocations.Length);
-        int monsterIndex = Random.Range(0, 3);
+        //int monsterIndex = Random.Range(0, number of monsters in game); TODO
 
-        Instantiate(clonedPrefab[monsterIndex], spawnLocations[spawnPointIndex].position, spawnLocations[spawnPointIndex].rotation);
+        Instantiate(clonedPrefab[0], spawnLocations[spawnPointIndex].position, spawnLocations[spawnPointIndex].rotation);
+
+
+        //Alternative cloning of all spawn locations
+       /* clonedPrefab[0] = Instantiate(spawnPrefab[0], spawnLocations[0].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+        clonedPrefab[1] = Instantiate(spawnPrefab[1], spawnLocations[1].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject; 
+        clonedPrefab[2] = Instantiate(spawnPrefab[2], spawnLocations[2].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;*/
         
     }
 
