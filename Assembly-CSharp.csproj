@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\Movement_AI.cs" />
      <Compile Include="Assets\Scripts\Movement_AI_Boss.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\SoundScript.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Stat.cs" />
      <Compile Include="Assets\Scripts\TeleportScript_Boss.cs" />

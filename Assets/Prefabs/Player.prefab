@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1950249222399118}
+  m_IsPrefabAsset: 1
+--- !u!1 &1950249222399118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4554408005255764}
+  - component: {fileID: 114361796760584060}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4554408005255764
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950249222399118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 441.06165, y: 291.14447, z: -2.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114361796760584060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950249222399118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb5c5fbff399724ab782b1d1c1277f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentXp: 0
+  currentLevel: 0
+  xpPerLevel: 1e0000003c0000005a0000007800000096000000c8000000fa0000002c01000068010000a4010000e00100001c02000058020000a8020000f80200004803000098030000e80300004c040000b00400001405000078050000dc05000040060000a4060000080700006c070000d00700003408000098080000fc08000060090000c40900003c0a0000b40a00002c0b0000a40b00001c0c0000e40c0000ac0d0000740e00003c0f000004100000301100005c1200008813000018150000a816000038180000581b0000
+  gold: 0
+  goldText: {fileID: 0}
+  levelText: {fileID: 0}

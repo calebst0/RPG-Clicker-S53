@@ -12,10 +12,16 @@ public class Movement_AI : MonoBehaviour {
     public int numberOfClicks = 0;
     public TeleportScript_Boss Tele;
 
+    public int gainGold = 10;
+    public int gainXp = 20;
+    public LevelingScript leveling;
+
     void Start()
     {
         HealthBarScript hb = gameObject.GetComponent<HealthBarScript>();
         TeleportScript_Boss Tele = gameObject.GetComponent<TeleportScript_Boss>();
+
+        leveling = FindObjectOfType<LevelingScript>();
     }
 
     void OnMouseDown()
@@ -24,6 +30,21 @@ public class Movement_AI : MonoBehaviour {
         {
             Destroy(gameObject);
             numberOfClicks = 0;
+
+            leveling.addExperience(gainXp);
+
+            if(leveling.gold >= 50)
+            {
+                leveling.addGold(30);
+            }
+            else if(leveling.gold >= 500)
+            {
+                leveling.addGold(80);
+            }
+            else
+            {
+                leveling.addGold(gainGold);
+            }    
         }
         else
         {
