@@ -66,6 +66,10 @@
      <Compile Include="Assets\Scripts\Movement_AI.cs" />
      <Compile Include="Assets\Scripts\Movement_AI_Boss.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\ShopSystem\BuyWeapon.cs" />
+     <Compile Include="Assets\Scripts\ShopSystem\ItemHolder.cs" />
+     <Compile Include="Assets\Scripts\ShopSystem\Shop.cs" />
+     <Compile Include="Assets\Scripts\ShopSystem\Weapon.cs" />
      <Compile Include="Assets\Scripts\SoundScript.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Stat.cs" />

@@ -59,7 +59,7 @@ public class LevelingScript : MonoBehaviour
     public bool checkSpend(int amount)
     {
 
-        if(amount >= gold)
+        if(amount <= gold)
         {
             return true;
         }
