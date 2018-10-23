@@ -6,7 +6,7 @@ using UnityEngine;
 public class Weapon {
 
     public string weaponName;
-    public int weaponID;
+    public int itemID;
     public int weaponPrice;
 
     public Sprite weaponSprite;

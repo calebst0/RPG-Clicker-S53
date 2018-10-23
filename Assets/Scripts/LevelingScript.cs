@@ -17,7 +17,7 @@ public class LevelingScript : MonoBehaviour
 
     void Start()
     {
-        currentLevel = PlayerPrefs.GetInt("level", 0);
+        currentLevel = PlayerPrefs.GetInt("level", 0) - 1;
         gold = PlayerPrefs.GetInt("gold", 0);
 
         updateUI();

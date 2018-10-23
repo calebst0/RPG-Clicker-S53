@@ -896,27 +896,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4655277832430884, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -330.1
+      value: -241
       objectReference: {fileID: 0}
     - target: {fileID: 4655277832430884, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 159.1
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 4531602793605512, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 39.1
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 4531602793605512, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 166.7
+      value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 4436114400773876, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 161.2
+      value: -173
       objectReference: {fileID: 0}
     - target: {fileID: 4436114400773876, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 336
+      value: 253
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114568572610727636, guid: 162b6323cc6746f4ebec780d70204c8e, type: 2}

@@ -5,11 +5,12 @@ using UnityEngine;
 public class BuyWeapon : MonoBehaviour {
 
     public int weaponID;
-    public LevelingScript gold;
 
     public void buyWeapon()
     {
-        if( weaponID == 0)
+
+
+        if (weaponID == 0)
         {
             Debug.Log("weapon id not set");
             return;
@@ -18,13 +19,15 @@ public class BuyWeapon : MonoBehaviour {
         for(int i = 0; i < Shop.shop.weapon.Count; i++)
         {
 
-            if(!Shop.shop.weapon[i].owned && Shop.shop.weapon[i].weaponID == weaponID)
+            if(!Shop.shop.weapon[i].owned && Shop.shop.weapon[i].itemID == weaponID)
             {
-                if(gold.checkSpend(Shop.shop.weapon[i].weaponPrice))
-                {
+
+                if(Shop.shop.leveling.checkSpend(Shop.shop.weapon[i].weaponPrice))
+                { 
                     Shop.shop.weapon[i].owned = true;
-                    gold.spendGold(Shop.shop.weapon[i].weaponPrice);
+                    Shop.shop.leveling.spendGold(Shop.shop.weapon[i].weaponPrice);
                 }
+                
             }
         }
     }
